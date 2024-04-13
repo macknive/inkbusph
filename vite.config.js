@@ -5,7 +5,7 @@ import vue from "@vitejs/plugin-vue"
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/",
+  base: "https://macknive.github.io/inkbusph/",
   plugins: [vue()],
   transpileDependencies: true,
   publicPath: process.env.NODE_ENV === "production" ? "/vue-deploy/" : "/",

@@ -13,7 +13,7 @@ import { RouterLink, RouterView } from "vue-router"
   </header> -->
 
   <div class="container">
-    <h3>Cris Palacio's</h3>
+    <h2>Cris Palacio's</h2>
     <img class="logo" src="../src/assets/inkbus.png" alt="" height="" />
     <h2>Website opening soon</h2>
     <h2>Follow us on our official social accounts</h2>
@@ -38,20 +38,16 @@ import { RouterLink, RouterView } from "vue-router"
 </template>
 
 <style scoped>
-p {
-  text-align: left;
-  align-items: left;
-  margin: 0;
-}
 .container {
-  margin-top: 100px;
+  margin: 100px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 720px;
 }
 .logo {
   height: auto;
-  width: 100%;
+  max-width: 100%;
   object-fit: contain;
 }
 a {

@@ -47,6 +47,9 @@ nav {
     position: fixed;
     background: black;
     z-index: 10;
+    a {
+      margin-right: 4px;
+    }
   }
 }
 </style>
